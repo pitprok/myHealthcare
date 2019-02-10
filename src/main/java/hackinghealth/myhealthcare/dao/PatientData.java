@@ -23,7 +23,7 @@ public class PatientData {
 
     public List<Allergy> selectAllergy(String fhircode) {
         System.out.println(fhircode);
-        String sql = "SELECT allergydata FROM allergy WHERE alergy.patient_id=patient id AND patient.fhircode='"+fhircode+"'";
+        String sql = "SELECT * FROM allergy,patient WHERE allergy.patient_id=patient.id AND patient.fhircode='"+fhircode+"'";
         System.out.println(sql);
         List<Allergy> allergyList = (List<Allergy>) this.em.createNativeQuery(sql, Allergy.class).getResultList();
         return allergyList;
