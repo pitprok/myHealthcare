@@ -5,6 +5,10 @@
  */
 package hackinghealth.myhealthcare.dao;
 
+import hackinghealth.myhealthcare.models.Allergy;
+import java.util.List;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -13,16 +17,15 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class PatientData {
-    
-    
-//    @PersistenceContext
-//	private EntityManager em;
-//	
-//	public List<Location> selectLocation(String locationCode) {
-//		System.out.println(locationCode);
-//		String sql = "SELECT * FROM location where json_CONTAINS(location_json, '{\"location_code\" : \""+locationCode+"\"}')";
-//		System.out.println(sql);
-//		List<Location> locationList = (List<Location>) this.em.createNativeQuery(sql, Location.class).getResultList();
-//		return locationList;
-//	}
+
+    @PersistenceContext
+    private EntityManager em;
+
+    public List<Allergy> selectAllergy(String fhircode) {
+        System.out.println(fhircode);
+        String sql = "SELECT allergydata FROM allergy WHERE alergy.patient_id=patient id AND patient.fhircode='"+fhircode+"'";
+        System.out.println(sql);
+        List<Allergy> allergyList = (List<Allergy>) this.em.createNativeQuery(sql, Allergy.class).getResultList();
+        return allergyList;
+    }
 }
