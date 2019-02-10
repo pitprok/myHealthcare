@@ -54,7 +54,6 @@
                     <table class="table table-bordered table-definition mb-5 pt-4">
                         <thead class="table-warning ">
                             <tr>
-                                <th>Check</th>
                                 <th>Title</th>
                                 <th>Description</th>
                                 <th>Criticality</th>
@@ -64,12 +63,7 @@
                         <tbody>
                             <c:forEach items="${allergy}" var="item">
                                 <tr>
-                                    <td>
-                                        <label class="custom-control custom-checkbox">
-                                            <input type="checkbox" class="custom-control-input">
-                                            <span class="custom-control-indicator"></span>
-                                        </label>
-                                    </td>
+
                                     <td>Allergy</td>
                                     <td>${item.getSubstance()}</td>
                                     <td>${item.getManifestation()}</td>
@@ -79,7 +73,6 @@
                         </tbody>
                        
                     </table>
-                    <a href="${pageContext.request.contextPath}/qrcode"><button class="btn btn-primary float-right"  >Go to QR code!</button></a>
                 </main>
 
                 <!-- Footer -->

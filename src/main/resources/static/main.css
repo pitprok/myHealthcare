@@ -31,6 +31,7 @@ html {
 }
 
 .table td {
+    background:white;
     vertical-align: middle;
 }
 
@@ -109,27 +110,27 @@ html {
 
 @keyframes slide {
     0% {
-        background-image: url('images/background1.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background1.jpg')
     }
 
     33.3% {
-        background-image: url('images/background1.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background1.jpg')
     }
 
     33.4% {
-        background-image: url('images/background2.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background2.jpg')
     }
 
     66.6% {
-        background-image: url('images/background2.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background2.jpg')
     }
 
 
     66.7% {
-        background-image: url('images/background3.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background3.jpg')
     }
 
     100% {
-        background-image: url('images/background3.jpg')
+        background-image: url('http://51.15.115.175:8080/jnpepfiles/profileimages/background3.jpg')
     }
 }

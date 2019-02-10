@@ -24,7 +24,7 @@
 
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" width="100" height="70" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="logo.png" width="100" height="70" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -177,7 +177,7 @@
 
 
         <!-- Footer -->
-        <footer class="page-footer font-small bg-dark text-muted">
+        <footer class="page-footer font-small bg-dark text-muted footeri">
 
           <!-- Copyright -->
           <div class="footer-copyright text-center py-3">© 2019 Copyright by: <strong>EmergencyQ</strong>
