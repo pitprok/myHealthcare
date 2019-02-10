@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <!--<link rel="stylesheet" type="text/css" media="screen" href="main.css" />-->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/main.css">
 </head>
 
 <body>
@@ -46,26 +47,7 @@
 
 
                 <main class="container">
-                    <!-- <form id="order-form" class="">
-            <div id="before-order" class="container fixed-top d-flex justify-content-center">
-                <button id="before-order-btn" type="submit" class="btn btn-outline-secondary">Place Order</button>
-            </div>
-            <c:forEach items="${allergy}" var="product">
-                <div class="form-row align-items-center pt-3 pb-3">
-                    <div class="form-group col-1">
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox">
-                        </div>
-                    </div>
-                    <p class="id d-none">${product.getSubstance()}</p>
-                    <p class="name col-3 mb-0">${product.getManifestation()}</p>
-                    <p class="descr col-4 mb-0">${product.getCriticality()}</p>
-                    <p class="price offset-1 col-2 mb-0">${product.getPrice()}&euro;</p>
-                    <input class="col-1 form-control quantity" type="number" min="1">
-                </div>
 
-            </c:forEach>
-        </form> -->
 
 
 
@@ -80,7 +62,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <c:forEach items="${products}" var="product">
+                            <c:forEach items="${allergy}" var="item">
                                 <tr>
                                     <td>
                                         <label class="custom-control custom-checkbox">
@@ -89,9 +71,9 @@
                                         </label>
                                     </td>
                                     <td>Allergy</td>
-                                    <td>${product.getSubstance()}</td>
-                                    <td>${product.getManifestation()}</td>
-                                    <td>${product.getCriticality()}</td>
+                                    <td>${item.getSubstance()}</td>
+                                    <td>${item.getManifestation()}</td>
+                                    <td>${item.getCriticality()}</td>
                                 </tr>
                             </c:forEach>
                         </tbody>
