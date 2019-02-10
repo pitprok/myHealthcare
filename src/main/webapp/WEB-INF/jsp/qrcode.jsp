@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>EmergencyQ</title>
+        <title>CareMe</title>
   <link rel="icon" type="image/png" href="favicon.ico" />
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -17,7 +17,7 @@
 
             .user_card {
                 height: 140px;
-                width: 140px;
+                width: 120px;
                 margin-top: auto;
                 margin-bottom: auto;
                 background: #ffffff;
@@ -86,14 +86,14 @@
 
 
                     <!-- Footer -->
-                    <footer class="page-footer font-small blue">
+         <footer class="page-footer font-small bg-dark text-muted footeri">
 
-                        <!-- Copyright -->
-                        <div class="footer-copyright text-center py-3 footeri">Â© 2018 Copyright:
-                        </div>
-                        <!-- Copyright -->
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2019 Copyright by: <strong>CareMe</strong>
+          </div>
+          <!-- Copyright -->
 
-                    </footer>
+        </footer>
                     <!-- Footer -->
 
                 </div>

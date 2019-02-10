@@ -70,18 +70,12 @@ public class Helper {
 
             JSONObject obj = new JSONObject(jsonString);
             JSONArray array = obj.getJSONArray("reaction");
-//             System.out.println(result);
             System.out.println(array);
             JSONArray array2=retrieveJSONArray(array, "manifestation");
             System.out.println(array2);
             JSONArray array3=retrieveJSONArray(array2,"coding");
             result=retrieveJSONPart(array3,"display");
-//            JSONArray array2=new JSONArray(result);
-//            result = retrieveJSONPart(array2, "coding");
-//            System.out.println(result);
-//            JSONArray array3 = new JSONArray(result);
-//            result = retrieveJSONPart(array3, "display");
-//            System.out.println(result);
+
 
 
         } catch (JSONException ex) {
