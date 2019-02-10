@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>EmergencyQ</title>
-  <link rel="icon" type="image/png" href="images/favicon.png" />
+  <link rel="icon" type="image/png" href="favicon.ico" />
 
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
@@ -24,7 +24,7 @@
 
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#"><img src="logo.png" width="100" height="70" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="logo.png" height="70" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -130,7 +130,7 @@
                 <div class="container">
                   <div class="row">
                     <div class="col-4">
-                      <img src="https://via.placeholder.com/100" class="rounded-circle" alt="Responsive image" style="width: 55%">
+                      <img src="health2.jpg" class="rounded-circle" alt="Responsive image" style="width: 55%">
                     </div>
                     <div class="col">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore maxime vitae sed neque
@@ -156,7 +156,7 @@
                         consectetur quas quia ea!</p>
                     </div>
                     <div class="col-4 pb-4">
-                      <img src="https://via.placeholder.com/100" class="rounded-circle" alt="Responsive image" style="width: 55%">
+                      <img src="health1.jpg" class="rounded-circle" alt="Responsive image" style="width: 55%">
                     </div>
                   </div>
                 </div>
