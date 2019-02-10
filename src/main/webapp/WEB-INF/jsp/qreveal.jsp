@@ -55,9 +55,9 @@
                         <thead class="table-warning ">
                             <tr>
                                 <th>Title</th>
-                                <th>Description</th>
+                                <th>Substance</th>
+                                <th>Manifestation</th>
                                 <th>Criticality</th>
-                                <th>Display</th>
                             </tr>
                         </thead>
                         <tbody>
